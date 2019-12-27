@@ -1,0 +1,19 @@
+.bg-red {
+    background-color: #eb5168;
+}
+
+.bg-l-blue {
+    background-color: #4ec1fc;
+}
+
+.bg-green {
+    background-color: #17c3ba;
+}
+
+.bg-blue {
+    background-color: #1d386c;
+}
+
+.visible {
+    visibility: visible !important;
+}

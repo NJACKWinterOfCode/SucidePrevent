@@ -1,15 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   
-    <title>Document</title>
-</head>
-<body>
-    <h1> Start an anonymous Connection</h1>
-    <button>Boy</button>
-    <button>Girl</button>
-    <button>Professor</button>
 
-    <h3>Your Requests</h3>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Suicide Prevent</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/homepage-cards.css">
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-dark">
+            <a class="navbar-brand text-light" href="#">
+                <h1>SuicidePrevent</h1>
+            </a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+                    <!-- <div class="card bg-light mb-3" style="max-width: 100%;">
+                        <div class="card-header bg-blue text-light text-center">
+                            <h1>Welcome to SuicidePrevent</h1>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Light card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div> -->
+                    <h1>Welcome to SuicidePrevent</h1>
+                    <hr>
+
+                    <div class="card-container">
+                        <div class="card" id="name-card">
+                            <div class="card-count-container">
+                                <div class="card-count">1</div>
+                            </div>
+
+                            <div class="card-content">
+                                <h2>Pick a User Name</h2>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="userName">Name</label>
+                                        <input type="text" class="form-control" id="userName" aria-describedby="userNameHelp">
+                                        <small id="userNameHelp" class="form-text text-muted">Enter a User Name to
+                                            proceed</small>
+                                    </div>
+                                    <div class="text-center text-light">
+                                        <button id="uName" class="btn btn-lg bg-red">Proceed</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="card-footer">
+                                User Name is Unique
+                            </div>
+                        </div>
+
+                        <div class="card hidden" id="sex-card">
+                            <div class="card-count-container">
+                                <div class="card-count">2</div>
+                            </div>
+                            <div class="card-content">
+                                <h2>What Sex are you?</h2>
+                                <img src="assets/images/male-avatar.jpg" style="width: 240px; height: 220px;" alt="..." class="img-thumbnail">
+                                <img src="assets/images/female-avatar.jpg" style="width: 240px; height: 220px;" alt="..." class="img-thumbnail">
+                            </div>
+                            <div class="text-center text-light">
+                                <button id="uSex" class="btn btn-lg bg-green">Proceed</button>
+                            </div>
+                            <div class="card-footer">
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+
+                        <div class="card hidden" id="room-card">
+                            <div class="card-count-container">
+                                <div class="card-count">3</div>
+                            </div>
+                            <div class="card-content">
+                                <h2>Select ChatRoom</h2>
+                                <img src="https://place-hold.it/240x220?text=General" alt="..." class="img-thumbnail">
+                                <img src="https://place-hold.it/240x220?text=Random" alt="..." class="img-thumbnail">
+                            </div>
+
+                            <div class="card-footer">
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/welcome-validation.js"></script>
 </body>
+
 </html>
