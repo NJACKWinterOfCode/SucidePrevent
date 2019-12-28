@@ -6,4 +6,11 @@
 - Verfied users which can respond to requests of the people and pacify them, through real-time chat.
 
 
+## Contribute:
+- Fork this repo.
+- Clone the repo using:
+	` git clone "repo-link" `
+- Commit and PR.
+
+
  
